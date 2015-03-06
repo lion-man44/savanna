@@ -1,0 +1,29 @@
+{
+  "name": "savanna",
+  "version": "0.0.1",
+  "description": "Simiplification document.querySelector ",
+  "main": "None",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amanattou44/savanna.git"
+  },
+  "keywords": [
+    "simple",
+    "jQuery"
+  ],
+  "author": "amanattou44",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amanattou44/savanna/issues"
+  },
+  "homepage": "https://github.com/amanattou44/savanna",
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "gulp": "^3.8.11",
+    "gulp-webserver": "^0.9.0",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}

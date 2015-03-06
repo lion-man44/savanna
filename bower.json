@@ -1,0 +1,25 @@
+{
+  "name": "savanna",
+  "version": "0.0.1",
+  "homepage": "https://github.com/amanattou44/savanna",
+  "authors": [
+    "amanattou44 <lion44man@gmail.com>"
+  ],
+  "description": "Simplification document.querySelector",
+  "main": "savanna.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "simple",
+    "jQuery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
