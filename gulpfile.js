@@ -15,11 +15,11 @@ gulp.task('server', function() {
 
 gulp.task('build', function() {
   browserify({
-    entries: ['./src/*.js']
+    entries: ['./src/savanna.js']
   })
     .bundle()
-    .pipe(sourceStream('bundle.js'))
-    .pipe(gulp.dest('savannah'))
+    .pipe(sourceStream('savanna.js'))
+    .pipe(gulp.dest('./'))
 });
 
 gulp.task('default', ['build']);
