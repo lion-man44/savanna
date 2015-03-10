@@ -3,7 +3,7 @@ var gulpWebServer = require('gulp-webserver');
 var sourceStream = require('vinyl-source-stream');
 var browserify = require('browserify');
 
-gulp.task('server', function() {
+gulp.task('webServer', function() {
   gulp.src('./')
     .pipe(gulpWebServer({
       livereload: true,
@@ -22,4 +22,9 @@ gulp.task('build', function() {
     .pipe(gulp.dest('./'))
 });
 
-gulp.task('default', ['build']);
+gulp.task('watch', function() {
+  gulp.watch('./src/*.js', ['build']);
+});
+
+gulp.task('default', ['build', 'watch']);
+gulp.task('server', ['webServer', 'build', 'watch']);
